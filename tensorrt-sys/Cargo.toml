@@ -1,6 +1,6 @@
 [package]
 name = "tensorrt-sys"
-version = "0.4.0"
+version = "0.4.1"
 authors = ["Mason Stallmo <masonstallmo@gmail.com>"]
 license = "MIT"
 edition = "2018"
@@ -16,6 +16,8 @@ trt-5 = []
 trt-6 = []
 
 trt-7 = []
+
+static = []
 
 [dependencies]
 libc = "0.*"
